@@ -3,6 +3,7 @@ from appSite.models import AllowHostModel, SenderLogManagerModel, SenderLogModel
 import appSite.globalvar as gv
 import __version__
 
+
 admin.site.site_header = 'OKX Resender'
 admin.site.index_title = 'Admin'
 admin.site.site_title = 'OKX Resender Server ' + __version__.version
